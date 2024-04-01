@@ -5,7 +5,9 @@
 }
 html {
     font-size: 62.5%;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 body {
     background-color: black;
@@ -21,13 +23,14 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0.1rem 0.1rem 1rem 0.5rem #8B111B;
 }
 .logo {
-    font-size: 1.8rem;
-    padding: 1rem;
-    
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
+
 .menu {
     display: flex;
     align-items: center;
@@ -55,20 +58,30 @@ a {
     cursor: pointer;
 }
 @media (max-width: 500px){
-    .menu {
-        display: none;
+    body{
+        overflow-x: hidden;
     }
-    .menu-btn {
-        display: block;
+    .main {
+        padding: 3rem;
     }
+    .img-tenis{
+        display: grid;
+        grid-row: 3 ;
+    }
+    img {
+        max-width: 100%;
+        position: absolute;
+    }
+ 
 }
+
 img {
-    padding-top: 5rem;
     width: 60rem;
+    padding-top: 5rem;
 }
 .content {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 45rem 10rem;
 }
 .main {
     display: flex;
@@ -108,6 +121,7 @@ h2{
 .carrinho {
     background-color: #7c7c7c;
 }
+
 
 
 
