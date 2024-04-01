@@ -57,9 +57,10 @@ a {
     display: none;
     cursor: pointer;
 }
-@media (max-width: 500px){
+@media (max-width: 1000px){
     body{
         overflow-x: hidden;
+        margin: auto;
     }
     .main {
         padding: 3rem;
@@ -72,7 +73,12 @@ a {
         max-width: 100%;
         position: absolute;
     }
- 
+    .content {
+        display: flex;
+    }
+    .navbar {
+        width: 45rem;
+    }
 }
 
 img {
@@ -112,7 +118,7 @@ h2{
 .btn:hover{
     transition: all 500ms ease-in-out;
     transform: translateY(-8%);
-    box-shadow: 0.1rem 0.1rem 0.5rem #ccc;
+    box-shadow: 0.1rem 0.1rem 0.5rem #8B111B;
 
 }
 .detalhes {
@@ -121,7 +127,3 @@ h2{
 .carrinho {
     background-color: #7c7c7c;
 }
-
-
-
-
