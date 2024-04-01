@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+body {
+    background-color: black;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+}
+.logo {
+    font-size: 1.8rem;
+    padding: 1rem;
+    
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+   
+}
+.menu-link {
+    display: flex;
+    gap: 2.4rem;
+    padding-inline: 3.6rem;
+    font-size: 1.3rem;
+    
+}
+.menu-link a {
+    color: #7c7c7c;
+}
+.menu-link a:hover {
+    color: white;
+    transition: all 400ms ease-in-out;
+}
+ .menu-btn {
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+    display: none;
+    cursor: pointer;
+}
+@media (max-width: 500px){
+    .menu {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+    }
+}
+img {
+    padding-top: 5rem;
+    width: 60rem;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+h1 {
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+.info-btn {
+    display: flex;
+}
+
+.btn {
+    color: #f7f7f6;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    transition: all 500ms ease-in-out;
+    transform: translateY(-8%);
+    box-shadow: 0.1rem 0.1rem 0.5rem #ccc;
+
+}
+.detalhes {
+    background-color: #8B111B ;
+}
+.carrinho {
+    background-color: #7c7c7c;
+}
+
+
+
